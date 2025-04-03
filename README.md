@@ -6,7 +6,7 @@
 /
 ├── public/
 │   ├── assets/
-|   ├── pagefind/ # auto-generated when build
+│   ├── pagefind/ # auto-generated when build
 │   └── favicon.svg
 │   └── astropaper-og.jpg
 │   └── favicon.svg
