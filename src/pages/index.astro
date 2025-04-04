@@ -8,7 +8,6 @@ import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
-import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
@@ -27,17 +26,22 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         Hi! I'm Aaron,
       </h1>
+      <img src="/assets/header_slop.jpg" class="sm:w-1/2 mx-auto" alt="i'm so full of myself">
+      <br/>
       <p>
         I make spacecraft and spacecraft accessories.
         From deep-space missions to national defense, I've spent some time
         building space vehicles in some of the most ambitious environments. 
-        When I’m not, I write about engineering, 
+      </p>
+      <br/>
+      <p>
+        Occassionally I write about engineering, 
         problem-solving, and understanding the world around me.
       </p>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
-          <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
+          <div class="mt-4 flex flex-col sm:flex-row sm:items-center self-center justify-self-center">
             <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">find me on one of these:</div>
             <Socials />
           </div>

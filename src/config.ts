@@ -2,9 +2,9 @@ export const SITE = {
   website: "https://a3ng7n.com/", // replace this with your deployed domain
   author: "Aaron",
   profile: "https://a3ng7n.com/",
-  desc: "aaaaa.",
+  desc: "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
   title: "a3ng7n",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,

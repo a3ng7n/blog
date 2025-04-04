@@ -5,6 +5,8 @@ title: "About"
 
 I'm Aaron; an engineer, husband, dog dad, brother and uncle.
 
+<img src="/assets/about_pfp.jpg" class="sm:w-1/2 mx-auto" alt="100% sass">
+
 I normally yap about spacecraft development or engineering in general.
 
 By day I'm a consultant; if you're looking for:
