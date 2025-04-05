@@ -7,7 +7,6 @@
 ├── public/
 │   ├── assets/
 │   ├── pagefind/ # auto-generated when build
-│   └── astropaper-og.jpg
 │   └── favicon.svg
 │   └── toggle-theme.js
 ├── src/
