@@ -2,6 +2,7 @@ import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
+import IconBluesky from "@/assets/icons/IconBluesky.svg";
 import { SITE } from "@/config";
 
 export const SOCIALS = [
@@ -16,6 +17,12 @@ export const SOCIALS = [
     href: "https://x.com/a3ng7n",
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
+  },
+  {
+    name: "Bluesky",
+    href: "https://bsky.app/profile/a3ng7n.com",
+    linkTitle: `${SITE.title} on Bluesky`,
+    icon: IconBluesky,
   },
   {
     name: "LinkedIn",
